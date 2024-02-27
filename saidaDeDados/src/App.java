@@ -1,3 +1,7 @@
+
+// importando uma biblioteca para definir localização para US
+import java.util.Locale;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -19,11 +23,16 @@ public class App {
         System.out.print("A soma de uma caixa de ovo e uma caixa de leite é ");
         System.out.println(caixaDeOvo + caixaDeLeite);
 
+        // Definindo como US a linguagem utilizada, para utilizar o . invés da ,
+        Locale.setDefault(Locale.US);
         // System.out.print: Printa um texto no terminal/console do computador;
         // ...printf() formata a saída, delimitando a quantidade de números a serem
         // exibidos, no caso, dois
         System.out.println("Pi até sua segunda casa deciamal depois do ponto é: ");
         System.out.printf("%.2f%n", pi);
+
+        System.out.println("Pi até sua quarta casa deciamal depois do ponto é: ");
+        System.out.printf("%.4f%n", pi);
 
     }
 }
