@@ -34,5 +34,11 @@ public class App {
         System.out.println("Pi até sua quarta casa deciamal depois do ponto é: ");
         System.out.printf("%.4f%n", pi);
 
+        // Declarando uma nova váriavel com base nas anteriores, apenas fazendo a soma
+        // de cada uma.
+        double num = caixaDeLeite + caixaDeLeite + pi;
+        // print da nova váriavel; Concatenação em java é feito por + var + , ou seja,
+        // dois sinais de + e no meio a váriavel.
+        System.out.println("Soma das váriaveis é " + num + "!");
     }
 }
