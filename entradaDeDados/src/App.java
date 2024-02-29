@@ -8,7 +8,8 @@ public class App {
         String a, b, c;
         int x;
 
-        // next(), nextInt(), nextDouble, next().charAt(0)
+        // String: next(),Int: nextInt(), Double(float): nextDouble,Char:
+        // next().charAt(0)
 
         x = sc.nextInt();
         // newline necessaria pois o enter no no nextInt anterior consome a proxima
