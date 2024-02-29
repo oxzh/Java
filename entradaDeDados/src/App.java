@@ -5,9 +5,9 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
 
-        Double a;
+        char a;
 
-        a = sc.nextDouble();
+        a = sc.next().charAt(0);
         System.out.println("o texto é " + a);
         sc.close();
 
