@@ -5,12 +5,11 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println(sc);
+        Double a;
 
-        int x;
-
-        x = sc.nextInt();
-        System.out.println("o texto é " + x);
+        a = sc.nextDouble();
+        System.out.println("o texto é " + a);
         sc.close();
+
     }
 }
