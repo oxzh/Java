@@ -8,9 +8,12 @@ public class App {
         String a, b, c;
         int x;
 
+        // next(), nextInt(), nextDouble, next().charAt(0)
+
         x = sc.nextInt();
         // newline necessaria pois o enter no no nextInt anterior consome a proxima
         // sc.nextline
+
         sc.nextLine();
         a = sc.nextLine();
         b = sc.nextLine();
