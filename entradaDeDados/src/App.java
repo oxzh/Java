@@ -5,10 +5,14 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
 
-        char a;
+        String a;
+        int b;
+        double c;
 
-        a = sc.next().charAt(0);
-        System.out.println("o texto é " + a);
+        a = sc.next();
+        b = sc.nextInt();
+        c = sc.nextDouble();
+        System.out.println("Meu nome é " + a + " Idade é, " + b + " e altura é: " + c);
         sc.close();
 
     }
