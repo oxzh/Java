@@ -5,14 +5,12 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
 
-        String a;
-        int b;
-        double c;
+        String a, b, c;
 
-        a = sc.next();
-        b = sc.nextInt();
-        c = sc.nextDouble();
-        System.out.println("Meu nome é " + a + " Idade é, " + b + " e altura é: " + c);
+        a = sc.nextLine();
+        b = sc.nextLine();
+        c = sc.next();
+        System.out.println("texto " + a + " texto " + b + " texto " + c);
         sc.close();
 
     }
