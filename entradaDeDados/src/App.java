@@ -6,11 +6,16 @@ public class App {
         Scanner sc = new Scanner(System.in);
 
         String a, b, c;
+        int x;
 
+        x = sc.nextInt();
+        // newline necessaria pois o enter no no nextInt anterior consome a proxima
+        // sc.nextline
+        sc.nextLine();
         a = sc.nextLine();
         b = sc.nextLine();
         c = sc.next();
-        System.out.println("texto " + a + " texto " + b + " texto " + c);
+        System.out.println("texto " + a + " texto " + b + " texto " + c + "numero " + x);
         sc.close();
 
     }
