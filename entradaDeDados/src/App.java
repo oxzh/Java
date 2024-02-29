@@ -7,9 +7,9 @@ public class App {
 
         System.out.println(sc);
 
-        String x;
+        int x;
 
-        x = sc.next();
+        x = sc.nextInt();
         System.out.println("o texto é " + x);
         sc.close();
     }
